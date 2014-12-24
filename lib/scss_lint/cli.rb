@@ -150,7 +150,7 @@ module SCSSLint
       files.uniq
     end
 
-    VALID_EXTENSIONS = %w[.css .scss]
+    VALID_EXTENSIONS = %w[.css .scss .sass]
     # @param file [String]
     # @return [Boolean]
     def scssish_file?(file)
